@@ -1,0 +1,218 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+
+	background: 
+	linear-gradient(
+		rgba(0, 0, 0, 0.59),
+		rgba(0, 0, 0, 0.59)
+	),
+	url("./images/banner.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+}
+
+* {
+	font-family: 'Raleway';
+}
+
+nav {
+	background: #220904;
+}
+
+#logoNav {
+	height: auto;
+	max-width: 100px;
+}
+
+nav a {
+
+	font-style: normal;
+	font-weight: 500;
+	font-size: 17px;
+	align-items: center;
+	text-align: center;
+
+	color: #f9f5f4 !important;
+
+}
+
+#title h1, h4, p {
+
+	color: #f7dfd9 !important;
+
+}
+
+#title h1 {
+
+	font-style: normal;
+	font-weight: 700;
+	font-size: 55px;
+	text-align: left;
+
+}
+
+#title h4 {
+
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	text-align: left;
+
+}
+
+#title h5 {
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	text-align: left;
+
+	color: #919191 !important;
+
+}
+
+#title p {
+
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	text-align: left;
+
+}
+
+#profile-pic {
+	max-width: 300px;
+	height: auto;
+	border-radius: 90px;
+}
+
+
+
+
+
+#projects {
+
+	height: auto;
+	align-items: center;
+
+	justify-content: center;
+	background: 
+	radial-gradient(50% 50% at 50% 50%, 
+		rgba(26, 21, 21, 0) 0%, 
+		rgba(1, 1, 1, 0.16) 100%), 
+	#FFFFFF;
+	mix-blend-mode: normal;
+
+}
+
+#projects h2 {
+
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	align-items: center;
+	letter-spacing: 0.18538em;
+
+}
+
+#projects h5, p{
+	color: #ffffff !important;
+}
+
+.card {
+	width: 18rem;
+	background: #220904;
+
+}
+
+.card-body img {
+	max-width: 100%;
+	height: auto;
+	max-width: 200px;
+}
+
+.card-title {
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+#tools {
+	background: #220904;
+	height: auto;
+	align-items: center;
+	align-content: center;
+}
+
+#tools h2 {
+
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	align-items: center;
+	letter-spacing: 0.18538em;
+
+	color: #ffffff !important;
+}
+
+#tools h5 {
+	
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.13538em;
+
+	color: #FFFFFF !important;
+
+}
+
+#tools img {
+	bottom: -30px;
+	height: auto;
+	max-width: 100px;
+}
+
+#contact h2 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	align-items: center;
+
+	color: #0a0201 !important;
+}
+
+#contact p {
+
+	color: #0a0201 !important;
+}
+
+footer {
+	align-content: center;
+	background: #220904;
+	height: auto;
+}
+
+footer p {
+	color: #ffffff !important;
+}
+
+#backtotop-logo {
+	width: 40px;
+	height: auto;
+}
+
+
+
+
+
+
